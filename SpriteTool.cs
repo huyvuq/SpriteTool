@@ -10,6 +10,7 @@
  * Feel free to contribute fixes and requests
  * on my GitHub: https://github.com/huyvuq/SpriteTool/
  */
+#if UNITY_EDITOR
 
 using UnityEngine;
 using System.Collections;
@@ -215,3 +216,4 @@ public class SpriteTool : Editor {
 		return -1;
 	}
 }
+#endif

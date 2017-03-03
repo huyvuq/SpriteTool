@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿#if UNITY_EDITOR
+using UnityEngine;
 using System.Collections;
 using UnityEditor;
 
@@ -17,3 +18,4 @@ public class SpriteToolGameObject : MonoBehaviour {
 	public RuntimeAnimatorController runtimeAnimator; //RuntiemAnimatorController of the sample GameObject, this is a reference to overide for to-be generated GameObject
 
 }
+#endif
